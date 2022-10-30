@@ -164,7 +164,7 @@ section .container {
 }
 
 #introduction .image-box::after {
-  content: 'Future Space';
+  content: 'MetaStarCoin';
   color: #0b0b10;
   font-size: 40px;
   font-style: italic;
@@ -210,6 +210,31 @@ section .container {
 }
 
 #our-plan .content {
+  color: #eee;
+  padding: 30px;
+  line-height: 2rem;
+  background: rgba(45, 41, 161, 0.8);
+}
+
+#our-plan2 .header {
+  background: #202428;
+}
+
+#our-plan2 .title {
+  font-size: 5rem;
+  font-weight: 700;
+  font-style: italic;
+  padding: 1.4rem 2rem;
+  color: #fff;
+  text-shadow: 5px 5px #db1919;
+  border: 10px dashed rgba(239, 88, 6, 0.7);
+}
+
+#our-plan2 .image {
+  width: 500px;
+}
+
+#our-plan2 .content {
   color: #eee;
   padding: 30px;
   line-height: 2rem;
