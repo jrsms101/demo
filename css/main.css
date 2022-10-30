@@ -1,0 +1,357 @@
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#header.fixed {
+  background: rgba(0, 225, 255, 0.5);
+}
+
+#nav a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
+  margin: 0.5rem 1rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#nav a:hover,
+#nav a.active {
+  text-shadow: 2px 2px 2px #00e1ff;
+}
+
+section {
+  padding: 60px 0;
+  margin: 15vh 0;
+}
+
+section .container {
+  position: relative;
+}
+
+.icon-telegram {
+  width: 3rem;
+}
+
+.icon-twitter {
+  width: 2.2rem;
+}
+
+.content {
+  text-shadow: 0 0 4px #999;
+}
+
+#welcome .image {
+  max-width: 100%;
+}
+
+#welcome .title {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: #fff;
+  text-shadow: 4px 4px #f2ff00;
+}
+
+#welcome .content {
+  color: #fafafa;
+  line-height: 2rem;
+  padding: 2rem;
+  background: rgba(30, 30, 30, 0.8);
+  box-shadow: -20px 20px 0 rgb(39, 38, 38);
+}
+
+#welcome .contact {
+  margin-top: 40px;
+}
+
+#welcome .contact a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 900;
+  white-space: nowrap;
+  padding: 8px 20px;
+  margin-right: 1rem;
+  color: #fff;
+  border-radius: 25px;
+  border: 2px solid #57ebff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#welcome .contact a:last-child {
+  margin-right: 0;
+}
+
+#welcome .contact a:hover {
+  background: #57ebff;
+}
+
+#token-planning .image {
+  max-width: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 25px 25px rgba(255, 191, 0, 0.929);
+}
+
+#token-planning .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #f2ff00;
+}
+
+#token-planning .content {
+  color: #fafafa;
+  line-height: 1.8rem;
+}
+
+#origin {
+  background: rgba(45, 41, 161, 0.3);
+}
+
+#origin .image {
+  width: 100%;
+}
+
+#origin .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #f2ff00;
+}
+
+#origin .content {
+  color: #fafafa;
+  line-height: 1.8rem;
+}
+
+#introduction .image-box {
+  width: 400px;
+  padding-bottom: 10px;
+  background: #fcfcfc;
+  text-align: center;
+}
+
+#introduction .image-box::after {
+  content: 'Future Space';
+  color: #0b0b10;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+#introduction .image {
+  width: 100%;
+}
+
+#introduction .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px #f2ff00;
+}
+
+#introduction .content {
+  color: #eee;
+  background: rgba(40, 40, 40, 0.5);
+  border: 15px double #333;
+  padding: 2rem;
+}
+
+#our-plan .header {
+  background: rgba(40, 40, 40, 0.7);
+}
+
+#our-plan .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: italic;
+  padding: 1.4rem 2rem;
+  color: #fff;
+  text-shadow: 2px 2px #f2ff00;
+  border: 10px dashed rgba(0, 225, 255, 0.7);
+}
+
+#our-plan .image {
+  width: 300px;
+}
+
+#our-plan .content {
+  color: #eee;
+  padding: 30px;
+  line-height: 2rem;
+  background: rgba(45, 41, 161, 0.8);
+}
+
+#team-contact {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#team-contact .image {
+  width: 100%;
+}
+
+#team-contact .contact {
+  text-align: center;
+  padding: 10px;
+  /* background: rgba(255, 255, 255, 0.95); */
+}
+
+#team-contact .contact a {
+  position: relative;
+  font-weight: 900;
+  color: #cdcdcd;
+  margin: 0 1.5rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#team-contact .contact a:hover {
+  color: #fff;
+  text-shadow: 2px 2px 2px #00e1ff;
+}
+
+#team-contact .contact img {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-right: 4px;
+}
+
+#team-contact .contact a:hover img {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 13px;
+  }
+
+  section {
+    padding: 40px 0;
+    margin: 10vh 0;
+  }
+
+  section .image {
+    display: block;
+    margin: auto;
+  }
+
+  #welcome .image {
+    height: 45vh;
+  }
+
+  #token-planning .image {
+    margin-top: 15px;
+  }
+
+  #origin .image {
+    width: auto;
+    height: 30vh;
+    margin-bottom: 15px;
+  }
+
+  #introduction .image-box {
+    margin-top: 15px;
+  }
+
+  #our-plan .image {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #welcome .image {
+    height: 40vh;
+  }
+
+  #welcome .title {
+    font-size: 4rem;
+  }
+
+  #welcome .title,
+  #token-planning .title,
+  #origin .title,
+  #introduction .title,
+  #our-plan .title {
+    text-shadow: 1px 1px #f2ff00;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 25px 0;
+    margin: 5vh 0;
+  }
+
+  #welcome .image {
+    height: 35vh;
+  }
+
+  #welcome .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #welcome .contact a {
+    padding: 10px;
+  }
+
+  #welcome .content,
+  #introduction .content,
+  #our-plan .content {
+    padding: 1.2rem;
+  }
+
+  #token-planning .title,
+  #origin .title,
+  #introduction .title,
+  #our-plan .title {
+    font-size: 2rem;
+  }
+
+  #our-plan .image {
+    width: 35vw;
+  }
+}
