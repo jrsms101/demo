@@ -320,6 +320,9 @@ section .container {
   #our-plan .image {
     margin: 0;
   }
+  #our-plan2 .image {
+    margin: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -336,6 +339,9 @@ section .container {
   #origin .title,
   #introduction .title,
   #our-plan .title {
+    text-shadow: 1px 1px #f2ff00;
+  }
+  #our-plan2 .title {
     text-shadow: 1px 1px #f2ff00;
   }
 }
@@ -368,15 +374,23 @@ section .container {
   #our-plan .content {
     padding: 1.2rem;
   }
-
+  #our-plan2 .content {
+    padding: 1.2rem;
+  }
   #token-planning .title,
   #origin .title,
   #introduction .title,
   #our-plan .title {
     font-size: 2rem;
   }
+  #our-plan2 .title {
+    font-size: 2rem;
+  }
 
   #our-plan .image {
+    width: 35vw;
+  }
+  #our-plan2 .image {
     width: 35vw;
   }
 }
