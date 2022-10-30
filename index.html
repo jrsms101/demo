@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <style>
+      /*最后展示区域的大小取决于绑定元素的面积*/
+      #my-background {
+          /* overflow: hidden; */
+          width: 100%;
+          height: 100vh;
+      }
+  </style>
   </head>
   <body>
-    <div id="particles-js"></div>
-
+    <!-- <div id="particles-js"></div> -->
+    <div id="your-element-selector">123</div>
     <header id="header">
       <nav id="nav">
         <a href="#welcome">Home</a>
@@ -143,7 +151,21 @@ application, allowing anyone to seamlessly create, buy, sell, exchange, grow and
         </a>
       </div>
     </section> -->
-
+    <script src="./js/three.min.js"></script>
+    <script src="./js/vanta.rings.min.js"></script>
+    <script>
+    VANTA.RINGS({
+      el: "#your-element-selector",
+      mouseControls: true,
+      touchControls: false,
+      gyroControls: true,
+      minHeight: 5000.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+    </script>
+</script>
     <script src="./js/particles.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/main.js"></script>
